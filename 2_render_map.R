@@ -514,7 +514,7 @@ travel_poster <- travel_poster +
 
 ## EXPORT TO PDF ===============================================================
 
-png("C_Outputs/road_trips.png",
+png("C_Outputs/us_travels.png",
   width = 36,
   height = 24,
   units = "in",
@@ -523,7 +523,7 @@ travel_poster
 graphics.off()
 
 
-pdf("C_Outputs/road_trip_poster.pdf", width = 36, height = 24)
+pdf("C_Outputs/us_travels_poster.pdf", width = 36, height = 24)
 travel_poster
 graphics.off()
 
