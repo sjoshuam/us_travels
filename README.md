@@ -8,12 +8,12 @@ However, I may make an R translation after I complete the Python version.
 # Task Board
 See Z_Admin/dashboard_plan.pptx for basic sketch of the dashboard.  Current task list:
 
-|                     |Skeleton |Tests |Functions |Evolution |Score        |
+|                     |Skeleton |Tests |Functions |Evolution |Score           |
 |:--------------------|:----    |:---- |:----     |:----     |:----
 |
 **General Elements**
-|process_layout       |         |      |          |          |0 x 1.2% = 0.0% |
-|display_layout       |         |      |          |          |0 x 1.2% = 0.0% |
+|process_layout       |X        |X     |          |          |3 x 1.2% = 2.4% |
+|display_layout       |X        |X     |          |          |2 x 2.4% = 2.4% |
 |process_map          |         |      |          |          |0 x 1.2% = 0.0% |
 |display_map          |         |      |          |          |0 x 1.2% = 0.0% |
 |define_style         |         |      |          |          |0 x 1.2% = 0.0% |
@@ -23,20 +23,22 @@ See Z_Admin/dashboard_plan.pptx for basic sketch of the dashboard.  Current task
 |display_explanation  |         |      |          |          |0 x 1.2% = 0.0% |
 |process_progress     |         |      |          |          |0 x 1.2% = 0.0% |
 |display_progress     |         |      |          |          |0 x 1.2% = 0.0% |
+|process_legend_plus  |         |      |          |          |0 x 1.2% = 0.0% |
+|display_legend_plus  |         |      |          |          |0 x 1.2% = 0.0% |
 |
 **Panel Elements (Maps)**
 |process_routes       |         |      |          |          |0 x 1.2% = 0.0% |
 |display_routes       |         |      |          |          |0 x 1.2% = 0.0% |
 |process_opportunity  |         |      |          |          |0 x 1.2% = 0.0% |
 |display_opportunity  |         |      |          |          |0 x 1.2% = 0.0% |
-|process_legend_plus  |         |      |          |          |0 x 1.2% = 0.0% |
-|display_legend_plus  |         |      |          |          |0 x 1.2% = 0.0% |
 |process_travels      |         |      |          |          |0 x 1.2% = 0.0% |
 |display_travels      |         |      |          |          |0 x 1.2% = 0.0% |
+|
 **Total Progress**
-|Planning             |         |      |          |          |00.0% of 10.0%  |
-|Coding               |         |      |          |          |00.0% of 81.6%  |
-|Buffer               |         |      |          |          |00.0% of 08.4%  |
+|Planning             |         |      |          |          |10.0% of  10.0% |
+|Coding               |         |      |          |          |04.8% of  81.6% |
+|Buffer               |         |      |          |          |00.0% of  08.4% |
+|Buffer               |         |      |          |          |14.8% of 100.4% |
 
 # Task Description
 
