@@ -19,8 +19,8 @@ See Z_Admin/dashboard_plan.pptx for basic sketch of the dashboard.  Current task
 |define_style         |         |      |          |          |0 x 1.2% = 0.0% |
 |
 **Panel Elements (Simple)**
-|process_explanation  |         |      |          |          |0 x 1.2% = 0.0% |
-|display_explanation  |         |      |          |          |0 x 1.2% = 0.0% |
+|process_explanation  |X        |      |          |          |1 x 1.2% = 1.2% |
+|display_explanation  |X        |      |          |          |1 x 1.2% = 1.2% |
 |process_progress     |         |      |          |          |0 x 1.2% = 0.0% |
 |display_progress     |         |      |          |          |0 x 1.2% = 0.0% |
 |process_legend_plus  |         |      |          |          |0 x 1.2% = 0.0% |
@@ -36,9 +36,9 @@ See Z_Admin/dashboard_plan.pptx for basic sketch of the dashboard.  Current task
 |
 **Total Progress**
 |Planning             |         |      |          |          |10.0% of  10.0% |
-|Coding               |         |      |          |          |04.8% of  81.6% |
+|Coding               |         |      |          |          |07.2% of  81.6% |
 |Buffer               |         |      |          |          |00.0% of  08.4% |
-|Buffer               |         |      |          |          |14.8% of 100.4% |
+|Buffer               |         |      |          |          |17.2% of 100.4% |
 
 # Task Description
 
