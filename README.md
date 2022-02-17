@@ -6,13 +6,27 @@ used the last one.  It will be the first one written in Python, instead of R.
 However, I may make an R translation after I complete the Python version.
 
 # Task Board
-See Z_Admin/dashboard_plan.pptx for basic sketch of the dashboard.  Current task list:
+See Z_Admin/dashboard_plan.pptx for basic sketch of the dashboard.
 
-|                     |Skeleton |Tests |Functions |Evolution |Score           |
+I have divided this project into a series of functions (the rows in the table
+below) and phases (the columns).  The functions are described below the table.
+The phases are:
++ Round 0 - Build just enough code to prove that the architecture is viable and
+confirm assumptions about the flow of code.  Use placeholder text/data/functions
+ to accelerate this phase.
++ Tests - Develop tests to confirm that each function does what it should do.
+This ensures that an automated test suite validates the codes before each
+deployment and warns when code regression has occurred.
++ Round 1 - Replace all placeholder code with functional code and ensure that
+all functions passed automated tests.
++ Round 2 - Analyze code in light of the whole script, and analyze performance
+in light of time/resource codes.  Evolve the code.
+
+|                     |Skeleton |Tests |Round 1   |Round 2   |Score           |
 |:--------------------|:----    |:---- |:----     |:----     |:----
 |
 **General Elements**
-|process_layout       |X        |X     |          |          |3 x 1.2% = 2.4% |
+|process_layout       |X        |X     |          |          |2 x 1.2% = 2.4% |
 |display_layout       |X        |X     |          |          |2 x 2.4% = 2.4% |
 |process_map          |         |      |          |          |0 x 1.2% = 0.0% |
 |display_map          |         |      |          |          |0 x 1.2% = 0.0% |
@@ -21,10 +35,10 @@ See Z_Admin/dashboard_plan.pptx for basic sketch of the dashboard.  Current task
 **Panel Elements (Simple)**
 |process_explanation  |X        |      |          |          |1 x 1.2% = 1.2% |
 |display_explanation  |X        |      |          |          |1 x 1.2% = 1.2% |
-|process_progress     |X        |      |          |          |1 x 1.2% = 0.0% |
-|display_progress     |X        |      |          |          |1 x 1.2% = 0.0% |
-|process_legend_plus  |         |      |          |          |0 x 1.2% = 0.0% |
-|display_legend_plus  |         |      |          |          |0 x 1.2% = 0.0% |
+|process_progress     |X        |      |          |          |1 x 1.2% = 1.2% |
+|display_progress     |X        |      |          |          |1 x 1.2% = 1.2% |
+|process_legend_plus  |X        |      |          |          |1 x 1.2% = 1.2% |
+|display_legend_plus  |X        |      |          |          |1 x 1.2% = 1.2% |
 |
 **Panel Elements (Maps)**
 |process_routes       |         |      |          |          |0 x 1.2% = 0.0% |
@@ -36,9 +50,9 @@ See Z_Admin/dashboard_plan.pptx for basic sketch of the dashboard.  Current task
 |
 **Total Progress**
 |Planning             |         |      |          |          |10.0% of  10.0% |
-|Coding               |         |      |          |          |09.6% of  81.6% |
-|Buffer               |         |      |          |          |00.0% of  08.4% |
-|Total                |         |      |          |          |19.6% of 100.0% |
+|Coding               |         |      |          |          |12.0% of  81.6% |
+|Buffer               |         |      |          |          |08.4% of  08.4% |
+|Total                |         |      |          |          |30.4% of 100.0% |
 
 # Task Description
 
