@@ -23,15 +23,15 @@ all functions passed automated tests.
 in light of time/resource codes.  Evolve the code.
 
 |                     |Skeleton |Tests |Round 1   |Round 2   |Score           |
-|:--------------------|:----    |:---- |:----     |:----     |:----
-|
-**General Elements**
+|:--------------------|:----    |:---- |:----     |:----     |:----           |
+|                     |         |      |          |          |                |
+|**General Elements** |         |      |          |          |                |
 |process_layout       |X        |X     |          |          |2 x 1.2% = 2.4% |
 |display_layout       |X        |X     |          |          |2 x 2.4% = 2.4% |
 |process_map          |         |      |          |          |0 x 1.2% = 0.0% |
 |display_map          |         |      |          |          |0 x 1.2% = 0.0% |
 |define_style         |         |      |          |          |0 x 1.2% = 0.0% |
-|
+|                     |         |      |          |          |                |
 **Panel Elements (Simple)**
 |process_explanation  |X        |      |          |          |1 x 1.2% = 1.2% |
 |display_explanation  |X        |      |          |          |1 x 1.2% = 1.2% |
