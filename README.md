@@ -39,7 +39,7 @@ in light of time/resource codes.  Evolve the code.
 |display_progress     |X        |      |          |          |1 x 1.2% = 1.2% |
 |process_legend_plus  |X        |      |          |          |1 x 1.2% = 1.2% |
 |display_legend_plus  |X        |      |          |          |1 x 1.2% = 1.2% |
-|
+|                     |         |      |          |          |                |
 **Panel Elements (Maps)**
 |process_routes       |         |      |          |          |0 x 1.2% = 0.0% |
 |display_routes       |         |      |          |          |0 x 1.2% = 0.0% |
@@ -47,7 +47,7 @@ in light of time/resource codes.  Evolve the code.
 |display_opportunity  |         |      |          |          |0 x 1.2% = 0.0% |
 |process_travels      |         |      |          |          |0 x 1.2% = 0.0% |
 |display_travels      |         |      |          |          |0 x 1.2% = 0.0% |
-|
+|                     |         |      |          |          |                |
 **Total Progress**
 |Planning             |         |      |          |          |10.0% of  10.0% |
 |Coding               |         |      |          |          |12.0% of  81.6% |
