@@ -22,37 +22,46 @@ all functions passed automated tests.
 + Round 2 - Analyze code in light of the whole script, and analyze performance
 in light of time/resource codes.  Evolve the code.
 
-|                     |Skeleton |Tests |Round 1   |Round 2   |Score           |
-|:--------------------|:----    |:---- |:----     |:----     |:----           |
-|                     |         |      |          |          |                |
-|**General Elements** |         |      |          |          |                |
-|process_layout       |X        |X     |          |          |2 x 1.2% = 2.4% |
-|display_layout       |X        |X     |          |          |2 x 2.4% = 2.4% |
-|process_map          |         |      |          |          |0 x 1.2% = 0.0% |
-|display_map          |         |      |          |          |0 x 1.2% = 0.0% |
-|define_style         |         |      |          |          |0 x 1.2% = 0.0% |
-|                     |         |      |          |          |                |
+|                     |Skeleton |Tests |Round 1   |Round 2   |Total   |
+|:--------------------|:----    |:---- |:----     |:----     |:----   |
+|                     |         |      |          |          |        |
+**General Elements**
+|process_layout       |X        |      |          |          | 1      |
+|display_layout       |X        |      |          |          | 1      |
+|process_map          |X        |      |          |          | 1      |
+|display_map          |X        |      |          |          | 1      |
+|customize_style      |         |      |          |          | 0      |
+|Section Total        |==>      |==>   |==>       |          |04      |
+**Data Imports**
+|import_texts         |X        |      |          |          | 1      |
+|import_kmls          |X        |      |          |          | 1      |
+|process_kmls         |X        |      |          |          | 1      |
+|import_xlsxs         |X        |      |          |          | 1      |
+|Section Total        |==>      |==>   |==>       |          |04      |
 **Panel Elements (Simple)**
-|process_explanation  |X        |      |          |          |1 x 1.2% = 1.2% |
-|display_explanation  |X        |      |          |          |1 x 1.2% = 1.2% |
-|process_progress     |X        |      |          |          |1 x 1.2% = 1.2% |
-|display_progress     |X        |      |          |          |1 x 1.2% = 1.2% |
-|process_legend_plus  |X        |      |          |          |1 x 1.2% = 1.2% |
-|display_legend_plus  |X        |      |          |          |1 x 1.2% = 1.2% |
-|                     |         |      |          |          |                |
-**Panel Elements (Maps)**
-|process_routes       |         |      |          |          |0 x 1.2% = 0.0% |
-|display_routes       |         |      |          |          |0 x 1.2% = 0.0% |
-|process_opportunity  |         |      |          |          |0 x 1.2% = 0.0% |
-|display_opportunity  |         |      |          |          |0 x 1.2% = 0.0% |
-|process_travels      |         |      |          |          |0 x 1.2% = 0.0% |
-|display_travels      |         |      |          |          |0 x 1.2% = 0.0% |
-|                     |         |      |          |          |                |
+|process_explanation  |X        |      |          |          | 1      |
+|display_explanation  |X        |      |          |          | 1      |
+|process_legend_plus  |X        |      |          |          | 1      |
+|display_legend_plus  |X        |      |          |          | 1      |
+|process_progress     |X        |      |          |          | 1      |
+|display_progress     |X        |      |          |          | 1      |
+|Section Total        |==>      |==>   |==>       |          |06      |
+**Panel Elements (Map)**
+|process_routes       |X        |      |          |          | 1      |
+|display_routes       |X        |      |          |          | 1      |
+|process_opportunity  |         |      |          |          | 0      |
+|display_opportunity  |         |      |          |          | 0      |
+|process_travels      |X        |      |          |          | 1      |
+|display_travels      |X        |      |          |          | 1      |
+|Section Total        |==>      |==>   |==>       |          |04      |
 **Total Progress**
-|Planning             |         |      |          |          |10.0% of  10.0% |
-|Coding               |         |      |          |          |12.0% of  81.6% |
-|Buffer               |         |      |          |          |08.4% of  08.4% |
-|Total                |         |      |          |          |30.4% of 100.0% |
+|                     |Items  |Weight  |Completed |Progress Score ||
+|Planning             |01 x 1 |16/100  |01        |16.0%          ||
+|General Elements     |05 x 4 |01/100  |04        |04.0%          ||
+|Data Imports         |04 x 4 |01/100  |04        |04.0%          ||
+|Simple Panels        |06 x 4 |01/100  |06        |06.0%          ||
+|Map Panels           |06 x 4 |01/100  |04        |04.0%          ||
+|Total Progress       |==>    |==>     |==>       |32.0%          ||
 
 # Task Description
 
