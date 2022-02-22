@@ -11,57 +11,59 @@ See Z_Admin/dashboard_plan.pptx for basic sketch of the dashboard.
 I have divided this project into a series of functions (the rows in the table
 below) and phases (the columns).  The functions are described below the table.
 The phases are:
-+ Round 0 - Build just enough code to prove that the architecture is viable and
++ i0 - Build just enough code to prove that the architecture is viable and
 confirm assumptions about the flow of code.  Use placeholder text/data/functions
  to accelerate this phase.
-+ Tests - Develop tests to confirm that each function does what it should do.
++ T - Develop tests to confirm that each function does what it should do.
 This ensures that an automated test suite validates the codes before each
 deployment and warns when code regression has occurred.
-+ Round 1 - Replace all placeholder code with functional code and ensure that
++ i1 - Replace all placeholder code with functional code and ensure that
 all functions passed automated tests.
-+ Round 2 - Analyze code in light of the whole script, and analyze performance
++ i2 - Analyze code in light of the whole script, and analyze performance
 in light of time/resource codes.  Evolve the code.
 
-|                     |Skeleton |Tests |Round 1   |Round 2   |Total   |
-|:--------------------|:----    |:---- |:----     |:----     |:----   |
-|                     |         |      |          |          |        |
+|                     |i0  |T   |i1  |i2  |Total |
+|:--------------------|:-- |:-- |:-- |:-- |:---- |
+|                     |    |    |    |    |      |
 **General Elements**
-|process_layout       |X        |      |          |          | 1      |
-|display_layout       |X        |      |          |          | 1      |
-|process_map          |X        |      |          |          | 1      |
-|display_map          |X        |      |          |          | 1      |
-|customize_style      |         |      |          |          | 0      |
-|Section Total        |==>      |==>   |==>       |          |04      |
+|process_layout       |X   |    |    |    | 1    |
+|display_layout       |X   |    |    |    | 1    |
+|process_map          |X   |    |    |    | 1    |
+|display_map          |X   |    |    |    | 1    |
+|customize_style      |    |    |    |    | 0    |
+|Section Total        |==> |==> |==> |==> |04    |
 **Data Imports**
-|import_texts         |X        |      |          |          | 1      |
-|import_kmls          |X        |      |          |          | 1      |
-|process_kmls         |X        |      |          |          | 1      |
-|import_xlsxs         |X        |      |          |          | 1      |
-|Section Total        |==>      |==>   |==>       |          |04      |
+|import_texts         |X   |X   |    |    | 2    |
+|import_kmls          |X   |X   |    |    | 2    |
+|process_kmls         |X   |X   |    |    | 2    |
+|import_xlsxs         |X   |W   |    |    | 2    |
+|Section Total        |==> |==> |==> |==> |08    |
 **Panel Elements (Simple)**
-|process_explanation  |X        |      |          |          | 1      |
-|display_explanation  |X        |      |          |          | 1      |
-|process_legend_plus  |X        |      |          |          | 1      |
-|display_legend_plus  |X        |      |          |          | 1      |
-|process_progress     |X        |      |          |          | 1      |
-|display_progress     |X        |      |          |          | 1      |
-|Section Total        |==>      |==>   |==>       |          |06      |
+|process_explanation  |X   |X   |    |    | 2    |
+|display_explanation  |X   |X   |    |    | 2    |
+|process_legend_plus  |X   |    |    |    | 1    |
+|display_legend_plus  |X   |    |    |    | 1    |
+|process_progress     |X   |    |    |    | 1    |
+|display_progress     |X   |    |    |    | 1    |
+|Section Total        |==> |==> |==> |==> |08    |
 **Panel Elements (Map)**
-|process_routes       |X        |      |          |          | 1      |
-|display_routes       |X        |      |          |          | 1      |
-|process_opportunity  |         |      |          |          | 0      |
-|display_opportunity  |         |      |          |          | 0      |
-|process_travels      |X        |      |          |          | 1      |
-|display_travels      |X        |      |          |          | 1      |
-|Section Total        |==>      |==>   |==>       |          |04      |
+|process_routes       |X   |    |    |    | 1    |
+|display_routes       |X   |    |    |    | 1    |
+|process_opportunity  |X   |    |    |    | 1    |
+|display_opportunity  |X   |    |    |    | 1    |
+|process_travels      |X   |    |    |    | 1    |
+|display_travels      |X   |    |    |    | 1    |
+|Section Total        |==> |==> |==> |==> |06    |
 **Total Progress**
 |                     |Items  |Weight  |Completed |Progress Score ||
 |Planning             |01 x 1 |16/100  |01        |16.0%          ||
 |General Elements     |05 x 4 |01/100  |04        |04.0%          ||
-|Data Imports         |04 x 4 |01/100  |04        |04.0%          ||
-|Simple Panels        |06 x 4 |01/100  |06        |06.0%          ||
-|Map Panels           |06 x 4 |01/100  |04        |04.0%          ||
-|Total Progress       |==>    |==>     |==>       |32.0%          ||
+|Data Imports         |04 x 4 |01/100  |08        |08.0%          ||
+|Simple Panels        |06 x 4 |01/100  |08        |08.0%          ||
+|Map Panels           |06 x 4 |01/100  |06        |06.0%          ||
+|Total Progress       |==>    |==>     |==>       |42.0%          ||
+
+In the table, X indicates that the task is complete.  W indicates that the task was not necessary.
 
 # Task Description
 
