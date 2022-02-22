@@ -43,9 +43,9 @@ in light of time/resource codes.  Evolve the code.
 |display_explanation  |X   |X   |    |    | 2    |
 |process_legend_plus  |X   |    |    |    | 1    |
 |display_legend_plus  |X   |    |    |    | 1    |
-|process_progress     |X   |    |    |    | 1    |
-|display_progress     |X   |    |    |    | 1    |
-|Section Total        |==> |==> |==> |==> |08    |
+|process_progress     |X   |X   |    |    | 2    |
+|display_progress     |X   |X   |    |    | 2    |
+|Section Total        |==> |==> |==> |==> |10    |
 **Panel Elements (Map)**
 |process_routes       |X   |    |    |    | 1    |
 |display_routes       |X   |    |    |    | 1    |
@@ -59,9 +59,9 @@ in light of time/resource codes.  Evolve the code.
 |Planning             |01 x 1 |16/100  |01        |16.0%          ||
 |General Elements     |05 x 4 |01/100  |04        |04.0%          ||
 |Data Imports         |04 x 4 |01/100  |08        |08.0%          ||
-|Simple Panels        |06 x 4 |01/100  |08        |08.0%          ||
+|Simple Panels        |06 x 4 |01/100  |10        |10.0%          ||
 |Map Panels           |06 x 4 |01/100  |06        |06.0%          ||
-|Total Progress       |==>    |==>     |==>       |42.0%          ||
+|Total Progress       |==>    |==>     |==>       |44.0%          ||
 
 In the table, X indicates that the task is complete.  W indicates that the task was not necessary.
 
