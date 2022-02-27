@@ -26,12 +26,12 @@ in light of time/resource codes.  Evolve the code.
 |:--------------------|:-- |:-- |:-- |:-- |:---- |
 |                     |    |    |    |    |      |
 **General Elements**
-|process_layout       |X   |    |    |    | 1    |
-|display_layout       |X   |    |    |    | 1    |
-|process_map          |X   |    |    |    | 1    |
-|display_map          |X   |    |    |    | 1    |
+|process_layout       |X   |W   |    |    | 2    |
+|display_layout       |X   |W   |    |    | 2    |
+|process_map          |X   |W   |    |    | 2    |
+|display_map          |X   |W   |    |    | 2    |
 |customize_style      |    |    |    |    | 0    |
-|Section Total        |==> |==> |==> |==> |04    |
+|Section Total        |==> |==> |==> |==> |08    |
 **Data Imports**
 |import_texts         |X   |X   |    |    | 2    |
 |import_kmls          |X   |X   |    |    | 2    |
@@ -41,27 +41,27 @@ in light of time/resource codes.  Evolve the code.
 **Panel Elements (Simple)**
 |process_explanation  |X   |X   |    |    | 2    |
 |display_explanation  |X   |X   |    |    | 2    |
-|process_legend_plus  |X   |    |    |    | 1    |
-|display_legend_plus  |X   |    |    |    | 1    |
+|process_legend_plus  |X   |X   |X   |    | 3    |
+|display_legend_plus  |X   |X   |X   |    | 3    |
 |process_progress     |X   |X   |    |    | 2    |
 |display_progress     |X   |X   |    |    | 2    |
-|Section Total        |==> |==> |==> |==> |10    |
+|Section Total        |==> |==> |==> |==> |14    |
 **Panel Elements (Map)**
-|process_routes       |X   |    |    |    | 1    |
-|display_routes       |X   |    |    |    | 1    |
-|process_opportunity  |X   |    |    |    | 1    |
-|display_opportunity  |X   |    |    |    | 1    |
-|process_travels      |X   |    |    |    | 1    |
-|display_travels      |X   |    |    |    | 1    |
-|Section Total        |==> |==> |==> |==> |06    |
+|process_routes       |X   |W   |    |    | 2    |
+|display_routes       |X   |X   |    |    | 2    |
+|process_opportunity  |X   |W   |    |    | 2    |
+|display_opportunity  |X   |X   |    |    | 2    |
+|process_travels      |X   |W   |    |    | 2    |
+|display_travels      |X   |X   |    |    | 2    |
+|Section Total        |==> |==> |==> |==> |12    |
 **Total Progress**
 |                     |Items  |Weight  |Completed |Progress Score ||
 |Planning             |01 x 1 |16/100  |01        |16.0%          ||
-|General Elements     |05 x 4 |01/100  |04        |04.0%          ||
+|General Elements     |05 x 4 |01/100  |08        |08.0%          ||
 |Data Imports         |04 x 4 |01/100  |08        |08.0%          ||
-|Simple Panels        |06 x 4 |01/100  |10        |10.0%          ||
-|Map Panels           |06 x 4 |01/100  |06        |06.0%          ||
-|Total Progress       |==>    |==>     |==>       |44.0%          ||
+|Simple Panels        |06 x 4 |01/100  |14        |14.0%          ||
+|Map Panels           |06 x 4 |01/100  |12        |10.0%          ||
+|Total Progress       |==>    |==>     |==>       |58.0%          ||
 
 In the table, X indicates that the task is complete.  W indicates that the task was not necessary.
 
