@@ -26,26 +26,26 @@ in light of time/resource codes.  Evolve the code.
 |:--------------------|:-- |:-- |:-- |:-- |:---- |
 |                     |    |    |    |    |      |
 **General Elements**
-|process_layout       |X   |W   |    |    | 2    |
-|display_layout       |X   |W   |    |    | 2    |
+|process_layout       |X   |W   |X   |    | 3    |
+|display_layout       |X   |W   |X   |    | 3    |
 |process_map          |X   |W   |    |    | 2    |
 |display_map          |X   |W   |    |    | 2    |
-|customize_style      |    |    |    |    | 0    |
-|Section Total        |==> |==> |==> |==> |08    |
+|customize_style      |X   |X   |    |    | 2    |
+|Section Total        |==> |==> |==> |==> |12    |
 **Data Imports**
-|import_texts         |X   |X   |    |    | 2    |
-|import_kmls          |X   |X   |    |    | 2    |
-|process_kmls         |X   |X   |    |    | 2    |
-|import_xlsxs         |X   |W   |    |    | 2    |
-|Section Total        |==> |==> |==> |==> |08    |
+|import_texts         |X   |X   |X   |    | 3    |
+|import_kmls          |X   |X   |X   |    | 3    |
+|process_kmls         |X   |X   |X   |    | 3    |
+|import_xlsxs         |X   |W   |X   |    | 3    |
+|Section Total        |==> |==> |==> |==> |12    |
 **Panel Elements (Simple)**
-|process_explanation  |X   |X   |    |    | 2    |
-|display_explanation  |X   |X   |    |    | 2    |
+|process_explanation  |X   |W   |X   |    | 3    |
+|display_explanation  |X   |W   |X   |    | 3    |
 |process_legend_plus  |X   |X   |X   |    | 3    |
 |display_legend_plus  |X   |X   |X   |    | 3    |
-|process_progress     |X   |X   |    |    | 2    |
-|display_progress     |X   |X   |    |    | 2    |
-|Section Total        |==> |==> |==> |==> |14    |
+|process_progress     |X   |X   |X   |    | 3    |
+|display_progress     |X   |X   |X   |    | 3    |
+|Section Total        |==> |==> |==> |==> |18    |
 **Panel Elements (Map)**
 |process_routes       |X   |W   |    |    | 2    |
 |display_routes       |X   |X   |    |    | 2    |
@@ -57,11 +57,11 @@ in light of time/resource codes.  Evolve the code.
 **Total Progress**
 |                     |Items  |Weight  |Completed |Progress Score ||
 |Planning             |01 x 1 |16/100  |01        |16.0%          ||
-|General Elements     |05 x 4 |01/100  |08        |08.0%          ||
-|Data Imports         |04 x 4 |01/100  |08        |08.0%          ||
-|Simple Panels        |06 x 4 |01/100  |14        |14.0%          ||
+|General Elements     |05 x 4 |01/100  |12        |12.0%          ||
+|Data Imports         |04 x 4 |01/100  |12        |12.0%          ||
+|Simple Panels        |06 x 4 |01/100  |18        |18.0%          ||
 |Map Panels           |06 x 4 |01/100  |12        |10.0%          ||
-|Total Progress       |==>    |==>     |==>       |58.0%          ||
+|Total Progress       |==>    |==>     |==>       |70.0%          ||
 
 In the table, X indicates that the task is complete.  W indicates that the task was not necessary.
 
