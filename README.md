@@ -65,6 +65,9 @@ in light of time/resource codes.  Evolve the code.
 
 In the table, X indicates that the task is complete.  W indicates that the task was not necessary.
 
+NOTE: Skill-building goals have been accomplished for this project.  Further
+development is lower priority and will take place as spare time permits.
+
 # Task Description
 
 **General Elements**
