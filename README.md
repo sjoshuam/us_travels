@@ -18,7 +18,7 @@ NOTE: I tried a new testing strategy for the Drafting stage of this project, but
 it produced too much testing clutter and redundancy.  For the Improving stage,
 I will centralize all testing into a single component.
 
-stages:
+Stages:
 + Drafting (DONE) - Build prototypes of all features and how they work together.
 + Improving – Rebuilt code, using knowledge gained from Drafting Stage.
 + Optimizing – Identify and streamline the slowest features in the code.
@@ -36,18 +36,20 @@ Component (Improving Stage):
 9. Code Tests - Tests for all features.
 
 ## Task Matrix
-|  |Dr|Im|Op|
-|:-|:-|:-|:-|
-|00| X|  |  |
-|01| X|  |  |
-|02| X|  |  |
-|03| X|  |  |
-|04| X|  |  |
-|05| X|  |  |
-|06| X|  |  |
-|07| X|  |  |
-|08| X|  |  |
-|09| X|  |  |
+|     |Dr|Im|Op|
+|:-   |:-|:-|:-|
+|00-DA| X|  |  |
+|01-PI| X|  |  |
+|02-GP| X|  |  |
+|03-IP| X|  |  |
+|04-PP| X|  |  |
+|05-OP| X|  |  |
+|06-RP| X|  |  |
+|07-TP| X|  |  |
+|08-TP| X|  |  |
+|09-CT| X|  |  |
+
+Total Progress: 33%
 
 
 # Directory Layout
