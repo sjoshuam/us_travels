@@ -51,6 +51,9 @@ Component (Improving Stage):
 
 Total Progress: 33%
 
+## Notes for the Improving stage:
++ Consolidate testing into a single section.
++ Swap in KNN understructure for the goal progress map?
 
 # Directory Layout
 Project directories are lettered to indicate sequences, and code scripts are
