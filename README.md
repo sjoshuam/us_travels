@@ -24,32 +24,30 @@ Stages:
 + Optimizing – Identify and streamline the slowest features in the code.
 
 Component (Improving Stage):
-0. Data Acquisition - Import and refine all needed data.
-1. Plot Infrastructure - Basic plotting canvas that will underly all panels.
-2. Generic Panel Elements - Generic functions to add explanatory text and titles.
-3. Introduction Panel -  Explanation of the dashboard.
-4. Progress Panel - Bar chart of progress towards reaching travel goals.
-5. Opportunity Panel - Map of opportunity to make goal progress.
-6. Route Panel - Map of planned future travel routes.
-7. Table Panel - Information about each planned route.
-8. Travel Panel - Map of past travels.
-9. Code Tests - Tests for all features.
++ 00. Libraries and Settings - Import needed functions and define settings
++ 01. Import Data – Import and shape data
++ 02. Dashboard Architecture – Build dashboard's underlying infrastructure
++ 03. Non-Map Panels - Render dashboard panels that have no map components
++ 04. Map Line Panels - Render map dashboard panels with line overlays
++ 05. Opportunity Panel - Render map dashboard panels with shading overlays
++ 06. Text Elements – Render text elements on all panels
++ 07. Testing – Conduct testing to confirm that code does what's intended
++ 08. Final Elements – Conduct any other needed tasks
 
 ## Task Matrix
-|     |Dr|Im|Op|
-|:-   |:-|:-|:-|
-|00-DA| X|  |  |
-|01-PI| X|  |  |
-|02-GP| X|  |  |
-|03-IP| X|  |  |
-|04-PP| X|  |  |
-|05-OP| X|  |  |
-|06-RP| X|  |  |
-|07-TP| X|  |  |
-|08-TP| X|  |  |
-|09-CT| X|  |  |
+|      |Dr|Im|Op|
+|:-    |:-|:-|:-|
+|00-Lib| X|  |  |
+|01-Imp| X|  |  |
+|02-Das| X|  |  |
+|03-Non| X|  |  |
+|04-Map| X|  |  |
+|05-Opp| X|  |  |
+|06-Tex| X|  |  |
+|07-Tes| X|  |  |
+|08-Fin| X|  |  |
 
-Total Progress: 33%
+Total Progress: 33% (9 of 27 tasks)
 
 ## Notes for the Improving stage:
 + Consolidate testing into a single section.
