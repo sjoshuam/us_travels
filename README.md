@@ -40,14 +40,14 @@ Component (Improving Stage):
 |00-Lib| X| X|  |
 |01-Imp| X| X|  |
 |02-Das| X| X|  |
-|03-Non| X|  |  |
+|03-Non| X| X|  |
 |04-Map| X|  |  |
 |05-Opp| X|  |  |
 |06-Tex| X| X|  |
 |07-Tes| X|  |  |
 |08-Fin| X|  |  |
 
-Total Progress: 48% (13 of 27 tasks)
+Total Progress: 52% (14 of 27 tasks)
 
 ## Notes for the Improving stage:
 + Consolidate testing into a single section.
