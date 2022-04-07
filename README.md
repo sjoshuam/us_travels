@@ -28,8 +28,8 @@ Component (Improving Stage):
 + 01. Import Data – Import and shape data
 + 02. Dashboard Architecture – Build dashboard's underlying infrastructure
 + 03. Non-Map Panels - Render dashboard panels that have no map components
-+ 04. Map Line Panels - Render map dashboard panels with line overlays
-+ 05. Opportunity Panel - Render map dashboard panels with shading overlays
++ 04. Common map elements - Render the base map layer under each map panel
++ 05. Map panels - Render map dashboard panels
 + 06. Text Elements – Render text elements on all panels
 + 07. Testing – Conduct testing to confirm that code does what's intended
 + 08. Final Elements – Conduct any other needed tasks
@@ -41,13 +41,13 @@ Component (Improving Stage):
 |01-Imp| X| X|  |
 |02-Das| X| X|  |
 |03-Non| X| X|  |
-|04-Map| X|  |  |
-|05-Opp| X|  |  |
+|04-Com| X| X|  |
+|05-Map| X| X|  |
 |06-Tex| X| X|  |
 |07-Tes| X|  |  |
-|08-Fin| X|  |  |
+|08-Fin| X| X|  |
 
-Total Progress: 52% (14 of 27 tasks)
+Total Progress: 63% (17 of 27 tasks)
 
 ## Notes for the Improving stage:
 + Consolidate testing into a single section.
