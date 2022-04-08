@@ -10,23 +10,20 @@ This version of the dashboard has six panels, each of which provides useful
 information in visual and textual format.
 
 # Task Board
-The project task matrix divides the project into three stages and ten components.
-Components may change between stages.  The Drafting stage is done; code is
-ready for the Improving stage.
-
-NOTE: I tried a new testing strategy for the Drafting stage of this project, but
-it produced too much testing clutter and redundancy.  For the Improving stage,
-I will centralize all testing into a single component.
+The project task matrix divides the project into three stages and nine
+components. Components may change between stages.  The Drafting and Improving
+stages are complete.  The Optimizing stage is currently a low priority until 
+development on other projects has progressed further.
 
 Stages:
 + Drafting (DONE) - Build prototypes of all features and how they work together.
-+ Improving – Rebuilt code, using knowledge gained from Drafting Stage.
++ Improving (DONE) – Rebuild code using knowledge gained from Drafting Stage.
 + Optimizing – Identify and streamline the slowest features in the code.
 
 Component (Improving Stage):
 + 00. Libraries and Settings - Import needed functions and define settings
 + 01. Import Data – Import and shape data
-+ 02. Dashboard Architecture – Build dashboard's underlying infrastructure
++ 02. Dashboard Architecture – Build the dashboard's underlying infrastructure
 + 03. Non-Map Panels - Render dashboard panels that have no map components
 + 04. Common map elements - Render the base map layer under each map panel
 + 05. Map panels - Render map dashboard panels
@@ -44,14 +41,10 @@ Component (Improving Stage):
 |04-Com| X| X|  |
 |05-Map| X| X|  |
 |06-Tex| X| X|  |
-|07-Tes| X|  |  |
+|07-Tes| X| X|  |
 |08-Fin| X| X|  |
 
-Total Progress: 63% (17 of 27 tasks)
-
-## Notes for the Improving stage:
-+ Consolidate testing into a single section.
-+ Swap in KNN understructure for the goal progress map?
+Total Progress: 67% (18 of 27 tasks)
 
 # Directory Layout
 Project directories are lettered to indicate sequences, and code scripts are
