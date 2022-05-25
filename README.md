@@ -32,19 +32,21 @@ Component (Improving Stage):
 + 08. Final Elements – Conduct any other needed tasks
 
 ## Task Matrix
-|      |Dr|Im|Op|
-|:-    |:-|:-|:-|
-|00-Lib| X| X|  |
-|01-Imp| X| X|  |
-|02-Das| X| X|  |
-|03-Non| X| X|  |
-|04-Com| X| X|  |
-|05-Map| X| X|  |
-|06-Tex| X| X|  |
-|07-Tes| X| X|  |
-|08-Fin| X| X|  |
+|      |Dr |Im |Op |
+|:-    |:- |:- |:- |
+|00-Lib| X | X |   |
+|01-Imp| X | X |   |
+|02-Das| X | X |   |
+|03-Non| X | X |   |
+|04-Com| X | X |   |
+|05-Map| X | X |   |
+|06-Tex| X | X |   |
+|07-Tes| X | X |   |
+|08-Fin| X | X |   |
+|N     |9.0|9.0|0.0|
+|W     | 55| 30| 15|
 
-Total Progress: 67% (18 of 27 tasks)
+Total Progress: (55 * 9.0 + 30 * 9.0 + 15 * 0.0) / 9 = 85%
 
 # Directory Layout
 Project directories are lettered to indicate sequences, and code scripts are
