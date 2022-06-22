@@ -48,6 +48,11 @@ Component (Improving Stage):
 
 Total Progress: (55 * 9.0 + 30 * 9.0 + 15 * 0.0) / 9 = 85%
 
+## TODO
++ Swap out TextWrapper for something more anchored in basic Python str methods
+    + Note: also has issues when the length of a .format() insertion is long.
++ Make docx importer ignore temporary files
+
 # Directory Layout
 Project directories are lettered to indicate sequences, and code scripts are
 numbered for the same reason.
