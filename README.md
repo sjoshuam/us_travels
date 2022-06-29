@@ -12,7 +12,7 @@ information in visual and textual format.
 # Task Board
 The project task matrix divides the project into three stages and nine
 components. Components may change between stages.  The Drafting and Improving
-stages are complete.  The Optimizing stage is currently a low priority until 
+stages are complete.  The Optimizing stage is currently a low priority until
 development on other projects has progressed further.
 
 Stages:
